@@ -14,6 +14,9 @@ def divide(x, y):
         return "На ноль делить нельзя!"
     return x / y
 
+def main():
+    print("Выберите операцию:")
+
 
     choice = input("Введите номер операции (1/2/3/4): ")
 
